@@ -33,9 +33,6 @@ int main () {
         ++nrId;
     }
 
-    // Se termina citirea numerelor
-
-
     //////////////////////////////////
     // a) afisare numerlor de 3 cifre 
     //////////////////////////////////
@@ -57,15 +54,16 @@ int main () {
     // b) media aritmetica a numerelor negative
     ///////////////////////////////////////////
 
-    cout << "Media aritmetica a numerelor negative este: " << sumNeg / nrNeg; 
-
+    if (sumNeg && nrNeg) { cout << "Media aritmetica a numerelor negative este: " << sumNeg / nrNeg; }
     ////////////////////////////////////////////
     // c) ultima cifra sumei numerelor pare 
     // si divizibile cu 5 și numarul acestora
     ///////////////////////////////////////////
 
     int sum = 0, k = 0;
+    
     for (int i = 0; i < n; ++i) {
+        
         int c = numereCitite[i];
         if (c % 2 == 0 && c % 5 == 0) {
             sum += c;
@@ -73,7 +71,18 @@ int main () {
         }
     }
 
-    cout << "Suma numerelor care indeplinesc conditia de la punctul c) este " << sum << " deci ultima cifra este " << sum % 10 << ". Mai mult au fost gasite " << k << " numere." << endl;
+    cout << "Suma numerelor care indeplinesc conditia de la punctul c) este " 
+         << sum 
+         << " deci ultima cifra este " 
+         << sum % 10 
+         << ". Mai mult au fost gasite " 
+         << k 
+         << " numere." << endl;
+    
+    //////////////////////////////
+    // c) Numarul numerelor ramase
+    //////////////////////////////
 
+    cout << "Au ramas " << n - k - nrNeg << " numere." << endl;
     return 0;
 }

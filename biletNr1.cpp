@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <fstream>
 
@@ -80,7 +79,7 @@ int main () {
          << " numere." << endl;
     
     //////////////////////////////
-    // c) Numarul numerelor ramase
+    // d) Numarul numerelor ramase
     //////////////////////////////
 
     cout << "Au ramas " << n - k - nrNeg << " numere." << endl;

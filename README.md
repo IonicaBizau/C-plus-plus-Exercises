@@ -1,4 +1,4 @@
-temp
-====
+C++ exercises
+=============
 
-C++
+Small C++ projects.

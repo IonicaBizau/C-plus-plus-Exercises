@@ -1,0 +1,24 @@
+{
+  "name": "c-plus-plus-exercises",
+  "version": "1.0.0",
+  "description": "Random algorithm solutions coded in C++.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/C-plus-plus-Exercises.git"
+  },
+  "keywords": [
+    "c",
+    "c++",
+    "exercises"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/C-plus-plus-Exercises/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/C-plus-plus-Exercises#readme"
+}

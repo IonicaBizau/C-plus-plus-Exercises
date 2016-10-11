@@ -1,6 +1,6 @@
 {
   "name": "c-plus-plus-exercises",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Random algorithm solutions coded in C++.",
   "main": "lib/index.js",
   "scripts": {
@@ -25,6 +25,7 @@
     "bin/",
     "app/",
     "lib/",
+    "build/",
     "dist/",
     "src/",
     "resources/",
